@@ -10,7 +10,7 @@ export default function CardGrid(props){
     });
 
     return (
-        <SimpleGrid maxW="full" minChildWidth='200px' columns={2} spacing={5}>
+        <SimpleGrid maxW="full" minChildWidth='200px' columns={2} spacing={25}>
             {cardList}
         </SimpleGrid>
     )
