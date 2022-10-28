@@ -1,4 +1,6 @@
-# Getting Started with Create React App
+## Details
+
+This project was a test using chakra components. The two buttons on the screen manipulate a stateful array of objects which are tied to a map of chakra cards. You can append and pop the array items using the buttons.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
