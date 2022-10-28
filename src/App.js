@@ -27,7 +27,7 @@ function App() {
   return (
     <Container maxW='7xl' className='App'>
       <Box boxShadow='lg' p='6' rounded='md' bg='gray.100' mt="4">
-        <Header h1='Chakra Test #2' desc={<a href="https://github.com/MSAZ89/chakra-test-2" target={'_blank'}>https://github.com/MSAZ89/chakra-test-2</a>}/>
+        <Header h1='Chakra Test #2' desc={<a href="https://github.com/MSAZ89/chakra-test-2" target={'_blank'} rel="noreferrer">https://github.com/MSAZ89/chakra-test-2</a>}/>
         <Button variant='outline' size='sm' colorScheme='blue' onClick={() => AppendData()}>Append</Button>
         <Button variant='outline' size='sm' colorScheme='blue' onClick={() => FilterAndUpdateData()}>Remove</Button>
         <br/><br/>
